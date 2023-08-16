@@ -77,6 +77,10 @@ h5 {
 .socials {
 	padding: 10px;
 }
+.socialIcons {
+	padding: 10px;
+}
+
 .jesterimg {
 	max-width: 100px;
 	margin-bottom: 30px;

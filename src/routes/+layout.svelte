@@ -2,6 +2,7 @@
 	import Header from './Header.svelte';
 	import './styles.css';
   import SocialIcons from '@rodneylab/svelte-social-icons';
+	import Tips from './Tips.svelte';
 </script>
 
 
@@ -11,6 +12,7 @@
 
 	<main>
 		<slot />
+		<Tips />
 	</main>
 
 	<footer>
