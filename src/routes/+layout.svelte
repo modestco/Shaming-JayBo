@@ -1,7 +1,10 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+  import SocialIcons from '@rodneylab/svelte-social-icons';
 </script>
+
+
 
 <div class="app">
 	<Header />
@@ -11,7 +14,12 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<SocialIcons network="github" fgColor="#eeeeee" bgColor="#111111" />
+<SocialIcons  network="github" fgColor="#eeeeee" bgColor="#111111" />
+
+		Copyright 2023 @theshamingofJay.
+		Proudly coded by @jenfrommodest with ♥︎ & 🍻 
+
 	</footer>
 </div>
 
