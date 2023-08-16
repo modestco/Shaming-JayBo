@@ -70,7 +70,9 @@ h5 {
 .container {
 	display:flex;
 	flex-direction: row;
-	max-width: 60%;
+	align-items: center;
+	margin: 0 auto;
+	padding-top:50px;
 }
 .socials {
 	padding: 10px;
@@ -80,7 +82,9 @@ h5 {
 	margin-bottom: 30px;
 }
 .heyJayTitle {
-	justify-content: left;
+	width: 70%;
+	
+	
 }
 .heyJayBody {
 	justify-content: left;
@@ -88,8 +92,11 @@ h5 {
 	color: white;
 	font-weight: 300;
 }
+
+
 .JayMain {
-	max-width: 100%;
+	width: 50%;
+	height: 50%;
 	justify-content: right;
 }
 .line {
