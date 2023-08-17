@@ -5,7 +5,7 @@
 
 <a href="https://www.patreon.com/theshamingofjay">Join JBN </a>
 
-<a href="https://cash.app/$theshamingofjay">Cas$hApp</a>
+<a href="https://cash.app/$theshamingofjay">Ca$hApp</a>
 <a href="https://account.venmo.com/u/theshamingofjay">Venmo</a>
 <a href="https://www.buymeacoffee.com/theshamingofjay">Buy Me a Cawfee</a>
 
