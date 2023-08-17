@@ -1,10 +1,8 @@
-@import '@fontsource/fira-mono';
 @import '@fontsource-variable/caveat';
 @import '@fontsource-variable/roboto-slab';
 
 :root {
 	--font-body: 'Roboto-slab', Roboto, serif;
-	--font-mono: 'Fira Mono', monospace;
 	--font-heading: 'Caveat', cursive;
 	--color-bg-0: #000;
 	--color-bg-1: #1a80b5;
@@ -13,7 +11,7 @@
 	--color-theme-3: #258008;
 	--color-text: white;
 	--column-width: 42rem;
-	font-family: var(--font-body);
+	font-family: 'Roberto-slab', Roboto, serif;
 	color: var(--color-text);
 }
 
