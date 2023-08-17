@@ -25,7 +25,7 @@
 	</div>
 
 		<p class="footerP">Copyright 2023 @theshamingofJay.
-		Proudly coded by <a href="www.jenfrommodest.com">Jen</a> with ❤️‍🔥 & 🍻 </p>
+		Proudly coded by <a href="https://www.jenfrommodest.com">Jen</a> with ❤️‍🔥 & 🍻 </p>
 
 	</footer>
 </div>
