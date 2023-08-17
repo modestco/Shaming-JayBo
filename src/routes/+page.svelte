@@ -3,6 +3,7 @@
 	import SocialIcons from '@rodneylab/svelte-social-icons';
 	import heyJay from '$lib/images/HeyJayText.png'
 	import JayMain from '$lib/images/Jay-main.png'
+	import Tips from './Tips.svelte';
 </script>
 
 <svelte:head>
@@ -30,12 +31,14 @@
 
 	<img src={heyJay} alt="titleText" class="heyJayTitle">
 	<p class="heyJayBody">
-		Just another asshole on the internet. In 2021 my wife made me watch a Dateline on the Murdaughs and I started tweeting nonstop for 6 weeks about true crime. 4 months in and we're close to 5K on YouTube! With some help I’m hoping I can continue to make you laugh while I turn this into a full time gig.	</p>
+		Basically, just another asshole on the internet. <br />
+		You might be wondering why I'm here. Well, in 2021 my wife made me watch a Dateline on the Murdaughs and I started tweeting nonstop for 6 weeks about true crime. 4 months in and we're close to 5K on YouTube! With some help I’m hoping I can continue to make you laugh while I turn this into a full time gig.	</p>
 
 </div>
 	<img src={JayMain} alt="TheShamingOfJay" class="JayMain">
 </div>
-
+<h1 class="support">Support #JayBoNation</h1>
+<Tips />
 <style>
 
 	section {
@@ -51,6 +54,14 @@ h1 {
 	font-family: var(--font-heading);
 	margin: 0;
 	padding: 0;
+}
+.support {
+	font-size: 3rem;
+	text-align: center;
+	font-family: var(--font-heading);
+	margin: 30px;
+	padding: 0;
+	color: var(--color-theme-1);
 }
 h2 {
 	font-size: 3rem;
@@ -86,7 +97,7 @@ h5 {
 	margin-bottom: 30px;
 }
 .heyJayTitle {
-	width: 70%;
+	width: 90%;
 	
 	
 }
@@ -113,7 +124,7 @@ h5 {
   
 }
 .flipX {
-  animation: 1s anim-flipX ease 1s;
+  animation: 3s anim-flipX ease 1s;
 }
 @keyframes anim-flipX {
   0% {
